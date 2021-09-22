@@ -1,5 +1,7 @@
 package day27_classAndObject;
 
+import java.util.ArrayList;
+
 public class StudentObject {
 	public static void main(String[] args) {
 		
@@ -46,6 +48,40 @@ public class StudentObject {
 //		
 //	2-  Create list of batch 8 student	
 		
+		ArrayList<Student> batch8 = new ArrayList<>();
+		
+		batch8.add(new Student("Opal",18,'F',"White"));
+		
+		Student darima = new Student("Darima",18,'F',"White");
+		
+		batch8.add(darima);	
+		
+		Student batch8Student2 = new Student ("Dina",18,'F',"White");
+		Student batch8Student3 = new Student ("Famira",18,'F',"White");
+		Student batch8Student4 = new Student ("Elira",18,'F',"White");
+		Student batch8Student5 = new Student ("Pedro",18,'M',"White");
+		Student batch8Student6 = new Student ("Mergen",18,'M',"White");
+		Student batch8Student7 = new Student ("Qasir",18,'M',"White");
+		Student batch8Student8 = new Student ("Erkin",18,'M',"White");
+		Student batch8Student9 = new Student ("Zamira",18,'F',"White");
+		
+		
+		batch8.add(batch8Student2);
+		batch8.add(batch8Student3);
+		batch8.add(batch8Student4);
+		batch8.add(batch8Student5);
+		batch8.add(batch8Student6);
+		batch8.add(batch8Student7);
+		batch8.add(batch8Student8);
+		batch8.add(batch8Student9);
+		
+		
+		for (int i = 0 ; i <  batch8.size(); i++) {
+			batch8.get(i).sleep();
+			
+			
+			
+		}
 		
 	}
 }

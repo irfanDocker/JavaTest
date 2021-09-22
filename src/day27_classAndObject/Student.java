@@ -9,8 +9,14 @@ public class Student {
 	String color;
 	
 	
+	public Student() {}
 	
-	
+	public Student(String name,int age, char gender, String color) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.color = color;
+	}
 	
 	
 	
