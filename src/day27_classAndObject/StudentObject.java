@@ -79,8 +79,6 @@ public class StudentObject {
 		for (int i = 0 ; i <  batch8.size(); i++) {
 			batch8.get(i).sleep();
 			
-			
-			
 		}
 		
 	}
